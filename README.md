@@ -30,7 +30,7 @@ To start the ROS nodes "joy" and "joy_cntl" navigate to the launch directory and
 cd ~/catkin_ws/src/deepracer_cntl/launch
 roslaunch deepracer_cntl joy_cntl.launch
 ```
-All of the AWS pre-installed ROS code loads at boot time so starting the joy_cntl launcher is the only thing necessary once the installation is done.
+All of the AWS pre-installed ROS code load at boot time so starting the joy_cntl launcher is the only thing necessary once the installation is done.
 
 ## Driving Untethered
 You can drive the deepracer remotely using only the gamepad or you can also view the camera feed on a network connected computer. 

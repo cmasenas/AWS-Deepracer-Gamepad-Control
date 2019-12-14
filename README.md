@@ -22,7 +22,7 @@ Follow the instructions in section ["Configuring the Joystick"](http://wiki.ros.
 If you have not already created a catkin workspace in your home directory you can follow the [instructions](http://wiki.ros.org/ROS/Tutorials/BuildingPackages) to create one.  Navigate to the src directory.
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/cmasenas/AWS-Deepracer-Gamepad-Control
+https://github.com/cmasenas/AWS-Deepracer-Gamepad-Control.git
 ```
 ## Starting the ROS gamepad control
 To start the ROS nodes "joy" and "joy_cntl" navigate to the launch directory and use the launch file.

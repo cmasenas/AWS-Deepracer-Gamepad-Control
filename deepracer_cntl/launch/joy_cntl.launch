@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- roslaunch deepracer_cntl joy_cntl.launch -->
+
+  <!-- joy node--> 
+  <node name="joy" pkg="joy" type="joy_node"/>
+  <node name="joy_cntl" pkg="deepracer_cntl" type="joy_cntl.py" respawn="true"/>
+
+</launch>

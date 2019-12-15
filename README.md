@@ -37,7 +37,8 @@ roslaunch deepracer_cntl joy_cntl.launch
 All of the AWS pre-installed ROS code load at boot time so starting the joy_cntl launcher is the only thing necessary once the installation is done.
 
 ## Driving Untethered
-You can drive the deepracer remotely using only the gamepad or you can also view the camera feed on a network connected computer. 
+You can drive the deepracer remotely using only the gamepad and you can also view the camera feed on a network connected computer. 
+
 The deepracer hostname can be found on the underside of the deepracer.
 ```
 ssh deepracer@HOSTNAME.local

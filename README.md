@@ -19,7 +19,7 @@ sudo apt-get install ros-kinetic-joy
 ```
 Follow the instructions in section ["Configuring the Joystick"](http://wiki.ros.org/joy/Tutorials/ConfiguringALinuxJoystick) to verify the joystick is working and accessible.
 
-If you have not already created a catkin workspace in your home directory you can follow the [instructions](http://wiki.ros.org/ROS/Tutorials/BuildingPackages) to create one.  Navigate to the src directory.
+If you have not already created a catkin workspace in your home directory you can follow the [instructions](http://wiki.ros.org/ROS/Tutorials/BuildingPackages) to create one.
 ```
 cd ~/catkin_ws
 git clone https://github.com/cmasenas/AWS-Deepracer-Gamepad-Control.git src

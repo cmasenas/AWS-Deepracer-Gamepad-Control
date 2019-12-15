@@ -24,6 +24,10 @@ If you have not already created a catkin workspace in your home directory you ca
 cd ~/catkin_ws
 git clone https://github.com/cmasenas/AWS-Deepracer-Gamepad-Control.git src
 ```
+Make the python file executable and editable.
+```
+chmod +rwx ~/catkin_ws/src/deepracer_cntl/src/joy_cntl.py
+```
 ## Starting the ROS gamepad control
 To start the ROS nodes "joy" and "joy_cntl" navigate to the launch directory and use the launch file.
 ```

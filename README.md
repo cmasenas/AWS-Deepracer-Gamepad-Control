@@ -1,5 +1,5 @@
 # AWS-Deepracer-Gamepad-Control
-Control the AWS Deepracer wirelessly and directly with a Logitech F710 gamepad.  A lot of the info in this readme came from [Mark Wolfe's Blog](https://www.wolfe.id.au/2018/12/22/using-aws-deepracer-for-ros-development/)
+Control the AWS Deepracer wirelessly and directly with a gamepad.  This was tested with a Logitech F710 but it should work with any joystick.  A lot of the info in this readme came from [Mark Wolfe's Blog](https://www.wolfe.id.au/2018/12/22/using-aws-deepracer-for-ros-development/)
 ## Overview
 The AWS Deepracer can be operated using the virtual joystick on the web interface but the lag in response time is horrendous.  I recommend bypassing the web interface and controlling the racer directly and remotely with a gamepad.  You can even watch the video stream from the front mounted camera while using the gamepad.  It is not difficult to get up and running.
 
